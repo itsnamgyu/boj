@@ -2,14 +2,11 @@
 #include <vector>
 
 int main(void) {
-	auto ways_to = std::vector<int>(5, 0);
-	ways_to[2] = 1;
-
 	int t;
 	scanf("%d", &t);
 
 	for (int i = 0; i < t; ++i) {
-		ways_to = std::vector<int>(5, 0);
+		auto ways_to = std::vector<int>(5, 0);
 		ways_to[2] = 1;
 
 		int n;
